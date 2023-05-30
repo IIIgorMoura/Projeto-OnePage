@@ -367,14 +367,100 @@ html {
 
     .cozinhando,
     .panela {
-        width: 30vw;
+        width: 75vw;
     }
 
     /* font */
     .titulo {
+        font-size: 25px;
+    }
+
+    .txt {
         font-size: 20px;
     }
 
+    /* fim font */
+    /* header */
+
+    .item {
+        font-size: 15px;
+    }
+
+    #nossaComida,
+    #nossaEquipe {
+        margin: 0 0px 15px;
+
+    }
+
+    #header .container {
+        flex-wrap: wrap;
+
+    }
+
+    #header .container img {
+        display: block;
+        margin: 0 30vw;
+    }
+
+    .logo {
+        width: 40vw;
+
+    }
+
+     /* fim header */
+
+    /* cardapio */
+    .cardapio {
+        margin: 0px;
+    }
+
+    /* fim cardapio */
+
+    .conteudo {
+        margin-left: 0;
+        margin-right: 0;
+        margin: 0 15px;
+    }
+
+    /* footer */
+    .nome,
+    .redes,
+    .endereco {
+        padding-bottom: 10px;
+    }
+
+    .amm {
+        font-size: 25px;
+    }
+
+    .cs {
+        font-size: 20px;
+    }
+
+    .rede-nome {
+        font-size: 18px;
+    }
+
+    .endereco-local {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    .endereco-nome {
+        font-size: 22px;
+    }
+
+    .endereco {
+        width: 40vw;
+    }
+
+    .prato {
+        margin: 15px;
+    }
+
+    /* fim footer */
 }
 
 /* FIM PORTABILIDADE TABLET */
+
